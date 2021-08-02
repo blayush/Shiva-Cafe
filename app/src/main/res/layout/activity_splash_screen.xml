@@ -6,4 +6,20 @@
     android:layout_height="match_parent"
     tools:context=".splashScreen">
 
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/orange_view"
+        android:layout_width="310dp"
+        android:layout_height="458dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintEnd_toEndOf="parent"
+
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/orange_circle" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
